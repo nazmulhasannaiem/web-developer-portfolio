@@ -3,6 +3,7 @@ body{font-family: 'Open Sans', sans-serif;}
 nav{display: flex;
     justify-content: space-between;
     align-items:center ;
+    margin:0px 200px ;
 }
 .nav-title{color: #181818;
 
@@ -31,5 +32,14 @@ nav{display: flex;
         font-size: 20px;
         font-weight: 700;
         padding: 15px 35px;
-    
+    }
+    /* header related style */
+    .header{background-color: #FFF8F3;;}
+    .banner{
+        padding: 30px 30px 30px 150;
+        display: flex;
+        align-items: center;
+    }
+    .banner .profile-pic{
+        width: 500px;
     }
